@@ -6,16 +6,16 @@ event_inherited();
 if(!hasLeveledUp) {
 	switch(level) {
 		case 1:
-			damage = 2;
-			split = 3;
+			damage = 3;
+
 			break;
 		case 2:
-			damage = 2;
-			split = 5;
+			damage = 4;
+
 			break;
 		case 3:
-			damage = 3;
-			split = 8;
+			damage = 5;
+
 			break;
 	}
 	hasLeveledUp = true;

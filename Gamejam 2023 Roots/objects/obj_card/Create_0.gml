@@ -10,6 +10,7 @@ isHeld = false;
 enum Crop_Types {
 	potato,
 	blueberry,
+	banana,
 	tomato,
 	beetroot,
 	dragonfruit,
@@ -56,6 +57,13 @@ switch(randCrop) {
 		turns = 1;
 		crop = obj_tomato_tile;
 		cropSprite = spr_tomato;
+		break;
+	case Crop_Types.banana:
+		cropName = "banana";
+		cost = 3;
+		turns = 0;
+		crop = obj_banana_tile;
+		cropSprite = spr_banana;
 		break;
 	case Crop_Types.beetroot:
 		cropName = "beetroot";
